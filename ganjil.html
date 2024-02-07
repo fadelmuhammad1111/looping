@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        // for
+        for(let z = 0; z <= 10 ; z++)
+            if(z % 2 == 1){
+                console.log('data ganjil ke-' , z)
+                
+            }else {
+                console.log('data genap ke-', z)
+            }
+        // for
+
+        let x = 1
+
+        while( x <= 10) {
+
+            if( x %2 == 1){
+        console.log('data ganjil ke', x)
+        
+        }else(console.log('data genap ke-', x))
+        x++
+
+        }
+
+        let y = 1
+
+        do {
+            if(y %2 == 1) {
+                console.log('bilangan ganjl', y)
+            }
+
+            else{
+                console.log('bilangan genap', y )
+            }
+            y++
+        } while (y <= 10)
+
+        let faktorial = 1
+        let angka = 5
+        for(let n = 1; n <= angka ; n++)
+        faktorial *= n;
+        document.write (`faktorial dari ${angka} adalah ${faktorial}` )
+        
+        // while
+        let f = 1
+        let ang = 5
+        let a = 1
+        
+        while(a <= ang){
+        f *= a;
+        document.write (` Faktorial dari ${ang} adalah ${f}`)
+        a++
+        }
+
+        let Faktorial = 1
+        let Angka = 5
+        let i = 1
+
+        do{
+            Faktorial *= i; 
+            console.log(`angka` + `faktorial` + `adalah`, Faktorial)
+            document.write (`faktorial dari ${Angka} adalah ${Faktorial}`)
+            i++
+        } while (i <= Angka)
+
+    </script>
+</body>
+</html>
